@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Header</h1>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <button onclick="alert('hi')">Click Me</button>
+    <button onclick="console.log('hi in the console')">Click Me Too!</button>
+    <button onclick="clickHandler('from the button click event')">Click Me Also</button>
+    <button id="myButton" onclick="">And Finally, Me</button>
+    <script type="text/javascript" src="domintro.js"></script>
+    <script>
+        // JavaScript will work in HTML page, but is sometimes frowned upon.
+        // You can add code to another file and link it.
+        function clickHandler(message) {
+            console.log('hi ... ' + message);
+        }
+    </script>
+</body>
+</html>

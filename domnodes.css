@@ -1,0 +1,8 @@
+body{background-color: lightgoldenrodyellow}
+h1{color: royalblue; font-family: 'Alfa Slab One', sans-serif;}
+h2{color: saddlebrown; font-family: 'Alfa Slab One', sans-serif;}
+#myButton{background-color:darkred; color: white; font-family: 'Alfa Slab One', sans-serif;
+font-size: 18px;}
+#colorDiv{font-family: 'Alfa Slab One', sans-serif; color: white;}
+#resultDiv{font-family: 'Alfa Slab One', sans-serif;}
+.selected{border-bottom-style: solid; border-bottom-width: 5px; border-bottom-color: black;}
